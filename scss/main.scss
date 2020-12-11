@@ -1,0 +1,32 @@
+@import 'fonts';
+@import 'variables';
+
+// Styles
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+   .navbar-brand {
+      font-size: 1.3rem;
+      font-weight: 700;
+   }
+
+   #navbarNav {
+      font-size: 1rem;
+      font-weight: 600;
+
+      .nav-center {
+         margin-left: 75%;
+      }
+   }
+
+   @media screen and (max-width: $lg) {
+      #navbarNav {
+         text-align: center;
+         .nav-center {
+            margin-left: 0;
+         }
+      }
+   }
+}
