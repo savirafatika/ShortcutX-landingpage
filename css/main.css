@@ -3,26 +3,97 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-nav .navbar-brand {
+.custom {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 1100px;
+}
+
+.custom nav .navbar-brand {
   font-size: 1.3rem;
   font-weight: 700;
 }
 
-nav #navbarNav {
+.custom nav #navbarNav {
   font-size: 1rem;
   font-weight: 600;
 }
 
-nav #navbarNav .nav-center {
+.custom nav #navbarNav .nav-center {
   margin-left: 75%;
 }
 
+.custom nav #navbarNav .nav-center .nav-link {
+  color: white;
+}
+
+.custom nav #navbarNav .nav-btn .nav-link {
+  color: white;
+}
+
+.custom nav #navbarNav .nav-btn button {
+  color: white;
+  border-radius: 4px;
+  padding: 0 22px 0 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-box-shadow: 0 3px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 3px rgba(0, 0, 0, 0.06);
+  background-color: #07C8F9;
+}
+
 @media screen and (max-width: 992px) {
-  nav #navbarNav {
+  .custom nav #navbarNav {
     text-align: center;
   }
-  nav #navbarNav .nav-center {
+  .custom nav #navbarNav .nav-center {
     margin-left: 0;
   }
+}
+
+.custom .dash {
+  padding-top: 7rem;
+}
+
+.custom .dash .dash-text {
+  padding-top: 11rem;
+}
+
+.custom .dash .col {
+  color: white;
+  width: 50%;
+}
+
+.custom .dash .col h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 2rem;
+}
+
+.custom .dash .col p {
+  width: 80%;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 2.5rem;
+}
+
+.custom .dash .col button {
+  color: white;
+  border-radius: 4px;
+  padding: 0 22px 0 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-box-shadow: 0 3px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 3px rgba(0, 0, 0, 0.06);
+  background-color: #07C8F9;
+  padding: 10px 25px 10px 25px;
+}
+
+.custom .dash .col img {
+  width: 600px;
 }
 /*# sourceMappingURL=main.css.map */
