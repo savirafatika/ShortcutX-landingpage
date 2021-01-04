@@ -352,7 +352,7 @@ body {
       }
 
       .col-lg-5 {
-         padding-top: 4rem;
+         padding-top: 6rem;
       }
    }
 }
@@ -399,5 +399,51 @@ body {
 
    img {
       width: 100%;
+   }
+
+   @media (max-width: $lg) {
+      padding-top: 3rem;
+
+      h1 {
+         font-size: 25px;
+         margin-bottom: 1.5rem;
+      }
+
+      .col-lg-5 {
+         h2 {
+            font-size: 23px;
+            margin-bottom: 1rem;
+         }
+
+         p {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 1rem;
+         }
+
+         a {
+            font-size: 14px;
+
+            i {
+               margin-left: 0.3rem;
+            }
+         }
+      }
+   }
+
+   @media (max-width: $sm) {
+      padding-top: 4rem;
+
+      .col-lg-5 {
+         text-align: center;
+
+         h2 {
+            margin-top: 0.5rem;
+         }
+
+         p {
+            width: 100%;
+         }
+      }
    }
 }

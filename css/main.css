@@ -350,7 +350,7 @@ body {
     top: -16.5rem;
   }
   .why-we .col-lg-5 {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 }
 
@@ -399,5 +399,45 @@ body {
 
 .what-can-do img {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .what-can-do {
+    padding-top: 3rem;
+  }
+  .what-can-do h1 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  .what-can-do .col-lg-5 h2 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+  }
+  .what-can-do .col-lg-5 p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1rem;
+  }
+  .what-can-do .col-lg-5 a {
+    font-size: 14px;
+  }
+  .what-can-do .col-lg-5 a i {
+    margin-left: 0.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .what-can-do {
+    padding-top: 4rem;
+  }
+  .what-can-do .col-lg-5 {
+    text-align: center;
+  }
+  .what-can-do .col-lg-5 h2 {
+    margin-top: 0.5rem;
+  }
+  .what-can-do .col-lg-5 p {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
