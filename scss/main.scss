@@ -356,3 +356,48 @@ body {
       }
    }
 }
+
+.what-can-do {
+   padding-top: 7rem;
+
+   h1 {
+      font-weight: 600;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 3rem;
+   }
+
+   .col-lg-5 {
+      align-self: center;
+
+      h2 {
+         color: $primaryColor;
+         font-weight: 600;
+         font-size: 37px;
+         margin-bottom: 1.5rem;
+      }
+   
+      p {
+         width: 80%;
+         font-weight: 400;
+         font-size: 27px;
+         line-height: 34px;
+         margin-bottom: 1.5rem;
+      } 
+   
+      a {
+         text-decoration: none;
+         font-weight: 600;
+         font-size: 25px;
+         color: $textColor;
+
+         i {
+            margin-left: 1rem;
+         }
+      }
+   }
+
+   img {
+      width: 100%;
+   }
+}
