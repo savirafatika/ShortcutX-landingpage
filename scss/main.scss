@@ -206,7 +206,7 @@ body {
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      width: 95%;
+      width: 90%;
 
       img {
          opacity: 50%;
@@ -223,13 +223,136 @@ body {
       padding-top: 10rem;
 
       h1 {
-         font-size: 22px;
+         font-size: 25px;
       }
 
       .grid-container {
          img {
             width: 30%;
          }
+      }
+   }
+}
+
+.why-we {
+   margin-top: 0.1rem;
+   padding-top: 7rem;
+
+   .col-lg-7 {
+      max-height: 460px;
+
+      img {
+         width: 85%;
+         border-radius: 8px;
+         position: relative;
+         z-index: 1;
+      }
+
+      .frame {
+         width: 84%;
+         height: 422px;
+         border-radius: 8px;
+         background-image: linear-gradient(150deg, $secondaryColor 40%, $primaryColor 100%);
+         position: relative;
+         top: -25.1rem;
+         left: 1.7rem;
+      }
+   }
+
+   .col-lg-5 {
+      align-self: center;
+
+      h1 {
+         color: $primaryColor;
+         font-weight: 600;
+         font-size: 37px;
+         margin-bottom: 1.5rem;
+      }
+
+      em {
+         font-weight: 500;
+         font-size: 29px;
+         line-height: 34px;
+      }
+
+      h3 {
+         color: $textColor;
+         font-weight: 600;
+         font-size: 29px;
+         margin-top: 5rem;
+      }
+
+      p {
+         font-weight: 500;
+         font-size: 23px;
+      }
+   }
+
+   @media (max-width: $lg) {
+      padding-top: 5rem;
+
+      .col-lg-7 {
+         max-height: 255px;
+
+         .frame {
+            height: 222px;
+            top: -13.1rem;
+            left: 1rem;
+         }
+      }
+
+      .col-lg-5 {
+         h1 {
+            font-size: 23px;
+            margin-bottom: 1rem;
+         }
+
+         em {
+            font-size: 16px;
+            line-height: 20px;
+         }
+
+         h3 {
+            font-size: 18px;
+            margin-top: 2rem;
+         }
+
+         p {
+            margin-top: -0.5rem;
+            font-size: 14px;
+         }
+      }
+   }
+
+   @media (max-width: $md) {
+      .col-lg-7 {
+         img {
+            width: 97%;
+         }
+
+         .frame {
+            width: 96%;
+            height: 130%;
+            top: -20rem;
+         }
+      }
+
+      .col-lg-5 {
+         padding-top: 8rem;
+         text-align: center;
+      }
+   }
+
+   @media (max-width: $sm) {
+      .col-lg-7 {
+         .frame {
+            height: 108%;
+            top: -16.5rem;
+         }
+      }
+
+      .col-lg-5 {
+         padding-top: 4rem;
       }
    }
 }
