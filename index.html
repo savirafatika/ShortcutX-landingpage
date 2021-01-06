@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse justify-content-center nav-center" id="navbarNav">
                <ul class="navbar-nav nav-center">
                   <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="#">Home</a>
+                     <a class="nav-link" href="#shortcut">Home</a>
                   </li>
                   <li class="nav-item mx-3">
-                     <a class="nav-link" href="#">Pricing</a>
+                     <a class="nav-link" href="#pricing">Pricing</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Features</a>
+                     <a class="nav-link" href="#features">Features</a>
                   </li>
                </ul>
             </div>
@@ -47,7 +47,7 @@
                   <li class="nav-item mx-3">
                      <a class="nav-link" href="#">Login</a>
                   </li>
-                  <button class="btn btn-sm btn-primary" type="button">Sign Up</button>
+                  <button class="btn btn-sm btn-primary" type="button"><a href="#sign-up">Sign Up</a></button>
                </ul>
             </div>
          </div>
@@ -58,7 +58,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 dash-text">
                <h1>Take your Business to the next level</h1>
                <p>Fully automated marketing solution designed to optimize your business</p>
-               <button type="button" class="btn btn-primary">Learn More</button>
+               <button type="button" class="btn btn-primary"><a href="#">Learn More</a></button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                <img src="assets/undraw_To_the_stars_qhyy.svg">
@@ -67,7 +67,7 @@
       </section>
    </div>
 
-   <section class="container shortcut">
+   <section class="container shortcut" id="shortcut">
       <h1>Find out why over 1000 businesses use ShortcutX</h1>
       <div class="grid-container">
          <img src="assets/img/business insider.png">
@@ -83,7 +83,7 @@
       </div>
    </section>
 
-   <section class="container why-we">
+   <section class="container why-we" id="pricing">
       <div class="row">
          <div class="col-lg-7 col-md-7 col-sm-12">
             <img src="assets/img/christopher-gower-m_HRfLhgABo-unsplash.jpg"
@@ -98,7 +98,7 @@
          </div>
    </section>
 
-   <section class="container what-can-do">
+   <section class="container what-can-do" id="features">
       <h1>What ShortcutX can do for you</h1>
       <div class="row">
          <div class="col-lg-5 col-md-5 col-sm-12">
@@ -125,13 +125,13 @@
       </div>
    </section>
 
-   <section class="container email">
+   <section class="container email" id="sign-up">
       <h1>Get Started</h1>
       <p>Enter your email below to sign up now.</p>
       <div class="input-group mb-3">
          <input type="email" name="email" id="email" placeholder="Enter your email address"
             class="form-control col-9" />
-         <input type="button" value="Sign Up" class="btn btn-primary col-3">
+         <button type="button" class="btn btn-primary col-3"><a href="#">Sign Up</a></button>
       </div>
    </section>
 
@@ -171,11 +171,17 @@
       </div>
    </footer>
 
+   <!-- button back to top -->
+   <button id="back-to-top-btn">
+      <i class="fas fa-arrow-up"></i>
+   </button>
+
    <!-- Option 1: Bootstrap Bundle with Popper -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
    </script>
+   <script type="text/javascript" src="js/scrollme.js"></script>
 </body>
 
 </html>
