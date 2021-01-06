@@ -431,7 +431,7 @@ body {
       }
    }
 
-   @media (max-width: $sm) {
+   @media (max-width: $md) {
       padding-top: 4rem;
 
       .col-lg-5 {
@@ -444,6 +444,138 @@ body {
          p {
             width: 100%;
          }
+      }
+   }
+}
+
+.email {
+   padding-top: 7rem;
+   padding-bottom: 8rem;
+   text-align: center;
+
+   h1 {
+      font-weight: 600;
+      font-size: 40px;
+   }
+
+   p {
+      font-weight: 400;
+      font-size: 27px;
+      margin-bottom: 1rem;
+   }
+
+   .input-group {
+      width: 47%;
+      height: 55px;
+      margin: auto;
+
+      #email {
+         margin-right: 0.6rem;
+      }
+
+      .btn {
+         background-color: #0D51E4;
+         font-weight: 600;
+      }
+   }
+
+   @media (max-width: $lg) {
+      h1 {
+         font-size: 25px;
+      }
+
+      p {
+         font-size: 16px;
+      }
+
+      .input-group {
+         width: 80%;
+      }
+   }
+
+   @media (max-width: $sm) {
+      .input-group {
+         width: 95%;
+      }
+   }
+}
+
+footer {
+   width: 100%;
+   height: auto;
+   color: white;
+   padding: 3rem;
+   background-image: linear-gradient(150deg, #0D51E4 0%, #072376 85%, #072171 100%);
+
+   .sosmed {
+      font-size: 23px;
+      font-weight: 600;
+
+      p {
+         width: 65%;
+      }
+
+      i {
+         background-color: white;
+         color: black;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         margin: 10px 8px;
+         font-size: 28px;
+         text-align: center;
+         padding-top: 6px;
+      }
+
+      h6 {
+         margin-top: 1.5rem;
+      }
+   }
+
+   .features,
+   .company {
+      ul {
+         font-size: 23px;
+         font-weight: 600;
+         line-height: 45px;
+
+         li {
+            font-size: 18px;
+            font-weight: 500;
+
+            a{
+               text-decoration: none;
+               color: white;
+            }
+         }
+      }
+   }
+
+   @media (max-width: $lg) {
+      .sosmed {
+         text-align: center;
+         font-size: 20px;
+
+         p {
+            width: 100%;
+         }
+      }
+
+      .features,
+      .company {
+         margin-top: 30px;
+
+         ul {
+            font-size: 20px;
+
+            li {
+               font-size: 16px;
+            }
+         }
+      }
+
+      .company {
+         text-align: right;
       }
    }
 }
